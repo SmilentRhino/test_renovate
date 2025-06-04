@@ -10,7 +10,7 @@
     },
     {
       "matchDatasources": ["docker"],
-      "matchDepnames": ["/.*chart.*/"],
+      "matchDepnames": ["/chart/"],
       "commitMessageTopic": "{{{depName}}} Helm Chart tag"
     }
   ]
