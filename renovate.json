@@ -10,7 +10,7 @@
     },
     {
       "matchDatasources": ["docker"],
-      "matchRepositories": ["*","**/bitnamicharts/metrics-server"],
+      "matchRepositories": ["*"],
       "commitMessageTopic": "{{{depName}}} Helm Chart tag"
     }
   ]
