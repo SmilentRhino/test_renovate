@@ -5,6 +5,10 @@
   ],
   "packageRules": [
     {
+      "matchFileNames": ["value.yaml"],
+      "addLabels": ["helm-chart"]
+    },
+    {
       "matchDatasources": ["docker"],
       "commitMessageTopic": "{{{depName}}} Helm Chart tag"
     }
