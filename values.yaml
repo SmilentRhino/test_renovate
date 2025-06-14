@@ -126,4 +126,4 @@ metricsServer:
   chartImage:
     registry: registry-1.docker.io
     repository: bitnamicharts/metrics-server
-    tag: 7.4.1
+    tag: 7.4.7
